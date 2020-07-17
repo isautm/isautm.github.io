@@ -1,0 +1,124 @@
+/* Misc
+
+
+
+*/
+/******************************TAG*****************************/
+body {
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Francois One', serif;
+}
+
+h2 {
+  font-family: 'Open Sans', serif;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/******************************CLASS*****************************/
+.nav-bar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.75;
+}
+
+.nav-bar a {
+  float: right;
+  display: block;
+  color: #f9f9f9;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.nav-bar p {
+  float: left;
+  display: block;
+  color: #f9f9f9;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding: 30px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.nav-bar a:hover {
+  background: #dbe2ef;
+  color: #000000
+}
+
+
+.top-container {
+  background-color: #dbdbdb;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.top-container img {
+  display: block;
+  text-align: center;
+}
+
+.top-content {
+  margin: auto;
+}
+
+.top-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #112d4e;
+}
+
+.features-btn {
+  width: 15%;
+  margin: 150px auto 0 auto;
+  text-align: center;
+}
+
+.features-btn a {
+  background: #112d4e;
+  color: #ffffff;
+  border-radius: 25px;
+  border-color: #112d4e;
+  border-width: 2px;
+  border-style: solid;
+  display: block;
+  font-size: 120%;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+}
+
+.features-btn a:hover {
+  background: transparent;
+  color: #112d4e;
+}
+
+.bottom-container {
+  background-color: #112d4e;
+  padding: 50px;
+  text-align: center;
+}
+
+.socmed {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #112d4e;
+}
